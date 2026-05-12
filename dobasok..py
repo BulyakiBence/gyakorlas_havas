@@ -14,4 +14,5 @@ for i in range (150):
 
 print(f"Ennyi esett 4 és 8 közé 150 számból :{db}")
 atlag = (db/150)* 100
+#atlag = round(db/150* 100, 2)
 print(f"Etz az összes dobás {atlag: .2f} szazaleka")
